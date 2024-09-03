@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import "@/styles/main.scss";
 import { Metadata, Viewport } from "next";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   icons: {
-    icon: "/favicon.ico",
+    icon: "/new-favicon.ico",
   },
 };
 
@@ -33,11 +34,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning lang="en">
+    <html suppressHydrationWarning lang="bg">
       <head />
       <body
         className={clsx(
-          "min-h-screen bg-background font-sans antialiased",
+          "min-h-screen font-sans antialiased",
           fontSans.variable,
         )}
       >
@@ -51,11 +52,11 @@ export default function RootLayout({
               <Link
                 isExternal
                 className="flex items-center gap-1 text-current"
-                href="https://nextui-docs-v2.vercel.app?utm_source=next-app-template"
+                href="https://www.powweb.bg/"
                 title="nextui.org homepage"
               >
                 <span className="text-default-600">Powered by</span>
-                <p className="text-primary">NextUI</p>
+                <p className="text-primary">Powweb.bg</p>
               </Link>
             </footer>
           </div>

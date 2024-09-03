@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /private/
+Disallow: /grid/
+Disallow: /?wordfence*
+
+Sitemap: https://velingrad24.com/sitemap.xml

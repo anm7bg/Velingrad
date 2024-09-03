@@ -1,4 +1,4 @@
-// File: C:\Users\nsite\Downloads\WordPress-Headles-Blog-Next-Ui\app\blog\layout.tsx
+// File: C:\Users\nsite\Downloads\velingrad-SPA-09-11-2018\Next\Velingrad\app\blog\layout.tsx
 import * as entry from '../../../../app/blog/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

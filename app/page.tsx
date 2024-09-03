@@ -11,13 +11,12 @@ export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
       <div className="hero">
-        <h2>Next.js + Headless WordPress</h2>
+        <h2>Велинград - Българското кътче от рая</h2>
         <p>
-          This combination empowers seamless integration between Next.js and
-          WordPress, providing dynamic and efficient web experiences.
+        Велинград е водеща СПА дестинация в България, известна с лечебните си минерални извори и красива природа. Открийте най-добрите СПА хотели във Велинград и се насладете на релакс и комфорт. Разгледайте забележителностите на Велинград, включително уникалните паркове, исторически места и красиви езера. Планувайте незабравима почивка в СПА столицата на Балканите и се потопете в спокойствието на Велинград.
         </p>
-        <Link href="/blog" className="btn">
-          Read Blog Posts
+        <Link href="/blog" className="btn home-btn">
+          Вижте публикациите за Велинград
         </Link>
       </div>
     </section>

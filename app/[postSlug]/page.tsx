@@ -1,5 +1,6 @@
  
 import { blogCard } from "@/app/lib/interface";
+import SideNav from "@/components/side-nav";
 import { getPostBySlug, getPosts } from "@/lib/service";
 
 import Image from "next/image";
@@ -56,18 +57,21 @@ const Page = async ( {params}: {params: {postSlug: string}} ) => {
 		
 
 	return (
-		<div className="single-blog-page">
-			<h1 className="post-page-title my-[50px] uppercase tracking-widest text-[1.5rem] text-center text-blue-100">{post.title}</h1>
-			<Image 
-				src={post.featuredImage.node.sourceUrl} 
-				alt="image" 
-				width={600} 
-				height={400}
-				className='post-image rounded-t-lg object-cover'
-			/>
-			<div className="blog-post mt-[50px]">
-				<p dangerouslySetInnerHTML={{ __html: post.content }}></p>
+        <div className='leftRightWrap'>
+			<div className="single-blog-page">
+				<h1 className="post-page-title my-[50px] uppercase tracking-widest text-[1.5rem] text-center text-blue-100">{post.title}</h1>
+				<Image 
+					src={post.featuredImage.node.sourceUrl} 
+					alt="image" 
+					width={600} 
+					height={400}
+					className='post-image rounded-t-lg object-cover'
+				/>
+				<div className="blog-post mt-[50px]">
+					<p dangerouslySetInnerHTML={{ __html: post.content }}></p>
+				</div>
 			</div>
+			<SideNav />
 		</div>
 	);
 	

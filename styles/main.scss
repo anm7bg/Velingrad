@@ -1,8 +1,29 @@
+$main-blue: #002BD8;
+$main-green: #45F248;
 body {
+    nav {
+        background-color: hsl(var(--nextui-background) / .9) !important;
+    }
+    .hero {
+        .home-btn {
+            background-color: $main-blue;
+        }
+    }
     .main-logo {
         max-width: none;
     }
-    
+    main {
+        border-radius: 10px;
+    }
+    .h-screen {
+        height: unset;
+    }
+    .sidebar {
+        width: 15% !important;
+        top: 114px;
+        right: 0;
+        border-left: 1px solid $main-blue;
+    }
     .posts {
         >div {
             display: inline-block;
@@ -16,22 +37,58 @@ body {
         display: block;
         margin: 10px auto;
     }
+    footer {
+        margin-top: 30px;
+        background: #000;
+    }
 }
 
+@media only screen and (min-width: 701px) {
+    body {
+        background-color: $main-blue;
+        main {
+            max-width: none !important;
+            width: 70% !important;
+            .leftRightWrap {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}
 @media only screen and (max-width: 700px) {
     body {
+        .sidebar {
+            display: none;
+        }
         .posts {
             >div {
                 display: block;
             }
         }
     }
-  }
+}
 
 html.light {
     body {
+        main {
+            background-color: hsl(var(--nextui-background) / .9);
+        }
+        .sidebar {
+            background-color: hsl(var(--nextui-background) / .9);
+        }
         .post-page-title, .home-page-title {
             color: #000;
+        }
+    }
+}
+html.dark {
+    body {
+        main {
+           background:  #000;
+        }
+        .sidebar {
+            background-color: #000;
         }
     }
 }

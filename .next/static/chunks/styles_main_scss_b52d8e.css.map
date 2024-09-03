@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["[project]/styles/main.scss.css"],"sourcesContent":["body nav{background-color:hsl(var(--nextui-background)/0.9) !important}body .hero .home-btn{background-color:#002bd8}body .main-logo{max-width:none}body main{border-radius:10px}body .h-screen{height:unset}body .sidebar{width:15% !important;top:114px;right:0;border-left:1px solid #002bd8}body .posts>div{display:inline-block;width:20%;margin:20px;padding:10px}body .post-image{display:block;margin:10px auto}body footer{margin-top:30px;background:#000}@media only screen and (min-width: 701px){body{background-color:#002bd8}body main{max-width:none !important;width:70% !important}body main .leftRightWrap{display:flex;justify-content:space-between}}@media only screen and (max-width: 700px){body .sidebar{display:none}body .posts>div{display:block}}html.light body main{background-color:hsl(var(--nextui-background)/0.9)}html.light body .sidebar{background-color:hsl(var(--nextui-background)/0.9)}html.light body .post-page-title,html.light body .home-page-title{color:#000}html.dark body main{background:#000}html.dark body .sidebar{background-color:#000}"],"names":[],"mappings":"AAAA;;;;AAAuE;;;;AAA8C;;;;AAA+B;;;;AAA6B;;;;AAA4B;;;;;;;AAAmF;;;;;;;AAAwE;;;;;AAAgD;;;;;AAA4C;EAA0C;;;;EAA8B;;;;;EAAyD;;;;;;AAAqE;EAA0C;;;;EAA2B;;;;;AAA+B;;;;AAAwE;;;;AAA4E;;;;AAA6E;;;;AAAoC"}},
+    {"offset": {"line": 90, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

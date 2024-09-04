@@ -18,8 +18,8 @@ const BlogPage = async () => {
 	return (
         // <p>Loading</p>
 		<div className="blog-page">
-			<h2>All Blog Posts</h2>
-			<p>All blog posts are fetched from WordPress via the WP REST API.</p>
+			<h2>Публикации:</h2>
+			{/* <p>All blog posts are fetched from WordPress via the WP REST API.</p> */}
             <div className='leftRightWrap'>
                 <div className="posts">
                     {posts.map((post: any, idx: number) => {

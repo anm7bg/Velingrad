@@ -1,6 +1,4 @@
 {
   "/page": "app/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/[postSlug]/page": "app/[postSlug]/page.js",
-  "/zabelezhitelnosti-velingrad/page": "app/zabelezhitelnosti-velingrad/page.js"
+  "/blog/page": "app/blog/page.js"
 }

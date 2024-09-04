@@ -420,7 +420,7 @@ const ThemeSwitch = ({ className, classNames })=>{
         columnNumber: 5
     }, this);
 };
-_s(ThemeSwitch, "MWqObSnWI+v7jZNxgKP/YIJmm38=", false, function() {
+_s(ThemeSwitch, "8afmDhIFLdcbnB4mP/BJMmmUZAE=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$themes$2f$dist$2f$index$2e$module$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTheme"],
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$react$2d$aria$2f$ssr$2f$dist$2f$SSRProvider$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useIsSSR"],

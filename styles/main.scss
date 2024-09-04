@@ -1,6 +1,27 @@
 $main-blue: #002BD8;
 $main-green: #45F248;
 body {
+    font-size: 1rem;
+    p, a, span, li {
+        font-size: 1.5rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    header {
+        ul {
+            li.logo {
+                padding: 0;
+            }
+        }
+    }
+    .header-ul {
+        li {
+            a {
+                font-size: 1.2rem;
+            }
+        }
+    }
     nav {
         background-color: hsl(var(--nextui-background) / .9) !important;
     }
@@ -30,6 +51,12 @@ body {
             width: 20%;
             margin: 20px;
             padding: 10px;
+        }
+        img {
+            height: 147px;
+        }
+        h3 {
+            height: 56px;
         }
     }
     
@@ -63,7 +90,10 @@ body {
         }
         .posts {
             >div {
-                display: block;
+                // display: block;
+                width: 45%;
+                margin: 5px;
+                padding: 5px;
             }
         }
     }

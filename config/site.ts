@@ -9,8 +9,8 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Забележителности Велинград",
-      href: "/zabelezhitelnosti-velingrad",
+      label: "Публикации",
+      href: "/blog",
     },
 
   ],  //   {
@@ -18,15 +18,15 @@ export const siteConfig = {
   //     href: "/blog",
   //   },
   // ],
-  navMenuItems: [],
-  //   {
-  //     label: "Profile",
-  //     href: "/profile",
-  //   },
-  //   {
-  //     label: "Dashboard",
-  //     href: "/dashboard",
-  //   },
+  navMenuItems: [
+    {
+      label: "Начало",
+      href: "/",
+    },
+    {
+      label: "Забележителности Велинград",
+      href: "/zabelezhitelnosti-velingrad",
+    },
   //   {
   //     label: "Projects",
   //     href: "/projects",
@@ -51,6 +51,7 @@ export const siteConfig = {
   //     label: "Logout",
   //     href: "/logout",
   //   },
+  ],
   links: {
     facebook: "https://www.facebook.com/velingradspa",
     // github: "https://github.com/nextui-org/nextui",

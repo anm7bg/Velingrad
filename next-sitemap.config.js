@@ -9,7 +9,10 @@ const exclude = [
   '/auth*',
   '/private',
   '/grid',
-  '/?wordfence*'
+  '/?wordfence*',
+  '/about*',
+  '/docs*',
+  '/pricing*'
 ];
  
 // Save crawling budget by not fetching SSG meta files

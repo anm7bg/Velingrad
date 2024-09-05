@@ -10,8 +10,8 @@ export const dynamicParams = true;
 
 export async function generateStaticParams() {
 	const response = await getPosts()
-	console.log("Response")
-	console.log(response)
+	// console.log("Response")
+	// console.log(response)
 	// const posts = await response.json();
 
     // console.log("Posts")

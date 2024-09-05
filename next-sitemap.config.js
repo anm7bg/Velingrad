@@ -1,11 +1,5 @@
-/** @type {import('next-sitemap').IConfig} */
-
-const dev = process.env.NODE_ENV !== 'production';
-
-module.exports = {
-  siteUrl: dev ? 'http://localhost:3000' : 'https://velingrad24.com',
-};
-
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+ 
 // add your private routes here
 const exclude = [
   '/dashboard*',
@@ -15,10 +9,28 @@ const exclude = [
   '/auth*',
 ];
  
+// Save crawling budget by not fetching SSG meta files
+const NEXT_SSG_FILES = [
+  '/*.json$',
+  '/*_buildManifest.js$',
+  '/*_middlewareManifest.js$',
+  '/*_ssgManifest.js$',
+  '/*.js$',
+];
+ 
 /** @type {import('next-sitemap').IConfig} */
 const config = {
+  siteUrl,
+  // generateRobotsTxt: true,
   exclude,
-  // .. the configuration above
+  robotsTxtOptions: {
+    policies: [
+      {
+        userAgent: '*',
+        disallow: NEXT_SSG_FILES,
+      },
+    ],
+  },
 };
  
 export default config;

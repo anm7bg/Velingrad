@@ -11,3 +11,9 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+module.exports = {
+  extends: [
+    //...
+    'plugin:@next/next/recommended',
+  ],
+}

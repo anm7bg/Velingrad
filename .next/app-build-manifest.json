@@ -1,6 +1,6 @@
 {
   "pages": {
-    "/[postSlug]/page": [
+    "/page": [
       "static/chunks/[root of the server]__4ec80e._.css",
       "static/chunks/a480a_tailwind-merge_dist_lib_4e292b._.js",
       "static/chunks/node_modules_@react-aria_732431._.js",
@@ -15,9 +15,8 @@
       "static/chunks/app_layout_tsx_4c33ab._.js",
       "static/chunks/app_error_tsx_6c72c3._.js",
       "static/chunks/app_error_tsx_e5220d._.js",
-      "static/chunks/node_modules_next_8a5304._.js",
-      "static/chunks/_cdb4d9._.js",
-      "static/chunks/app_[postSlug]_page_tsx_a548d8._.js",
+      "static/chunks/app_page_tsx_9fdd4f._.js",
+      "static/chunks/app_page_tsx_c27863._.js",
       "static/chunks/node_modules_next_dist_compiled_react_a1d82d._.js",
       "static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js",
       "static/chunks/node_modules_next_dist_compiled_react-dom_87a050._.js",
@@ -26,8 +25,8 @@
       "static/chunks/node_modules_next_dist_091837._.js",
       "static/chunks/ed0b0_@swc_helpers_cjs_d9e50e._.js",
       "static/chunks/[turbopack]_dev_client_hmr-client_ts_aba4f1._.js",
-      "static/chunks/node_modules_next_dist_esm_build_templates_app-page_611ac8.js",
-      "static/chunks/node_modules_next_dist_esm_build_templates_app-page_e731f5.js"
+      "static/chunks/node_modules_next_dist_esm_build_templates_app-page_bf47c6.js",
+      "static/chunks/node_modules_next_dist_esm_build_templates_app-page_a19ee7.js"
     ]
   }
 }

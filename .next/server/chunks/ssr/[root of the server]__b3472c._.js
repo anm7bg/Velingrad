@@ -39,47 +39,28 @@ const siteConfig = {
             href: "/"
         },
         {
-            label: "Забележителности Велинград",
-            href: "/zabelezhitelnosti-velingrad"
+            label: "Публикации",
+            href: "/blog"
         }
     ],
     //     label: "Blog",
     //     href: "/blog",
     //   },
     // ],
-    navMenuItems: [],
-    //   {
-    //     label: "Profile",
-    //     href: "/profile",
-    //   },
-    //   {
-    //     label: "Dashboard",
-    //     href: "/dashboard",
-    //   },
-    //   {
-    //     label: "Projects",
-    //     href: "/projects",
-    //   },
-    //   {
-    //     label: "Team",
-    //     href: "/team",
-    //   },
-    //   {
-    //     label: "Calendar",
-    //     href: "/calendar",
-    //   },
-    //   {
-    //     label: "Settings",
-    //     href: "/settings",
-    //   },
-    //   {
-    //     label: "Help & Feedback",
-    //     href: "/help-feedback",
-    //   },
-    //   {
-    //     label: "Logout",
-    //     href: "/logout",
-    //   },
+    navMenuItems: [
+        {
+            label: "Начало",
+            href: "/"
+        },
+        {
+            label: "За Велинград",
+            href: "/za-velingrad"
+        },
+        {
+            label: "Забележителности Велинград",
+            href: "/zabelezhitelnosti-velingrad"
+        }
+    ],
     links: {
         facebook: "https://www.facebook.com/velingradspa",
         // github: "https://github.com/nextui-org/nextui",
@@ -672,7 +653,8 @@ const Navbar = ()=>{
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$nextui$2d$org$2f$link$2f$dist$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Link"], {
                                     color: index === 2 ? "primary" : index === __TURBOPACK__imported__module__$5b$project$5d2f$config$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteConfig"].navMenuItems.length - 1 ? "danger" : "foreground",
                                     href: "#",
-                                    size: "lg"
+                                    size: "lg",
+                                    children: item.label
                                 }, void 0, false, {
                                     fileName: "[project]/components/navbar.tsx",
                                     lineNumber: 127,

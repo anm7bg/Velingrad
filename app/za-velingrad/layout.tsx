@@ -5,7 +5,7 @@ export const metadata: Metadata = {
     default: "За Велинград - Velingrad24.com",
     template: "За Велинград - Velingrad24.com",
   },
-  description: "Интересни факти за града и околностите..",
+  description: "Категория За Велиинград предоставя полезна информация и забележителности за Велиинград – перлата на Родопите и СПА столицата на Балканите.",
   icons: {
     icon: "/new-favicon.ico",
   },

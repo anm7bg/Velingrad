@@ -7,6 +7,9 @@ const exclude = [
   '/onboarding*',
   '/blog/tags*',
   '/auth*',
+  '/private',
+  '/grid',
+  '/?wordfence*'
 ];
  
 // Save crawling budget by not fetching SSG meta files
@@ -21,7 +24,7 @@ const NEXT_SSG_FILES = [
 /** @type {import('next-sitemap').IConfig} */
 const config = {
   siteUrl,
-  // generateRobotsTxt: true,
+  generateRobotsTxt: true,
   exclude,
   robotsTxtOptions: {
     policies: [

@@ -2,6 +2,10 @@ import { SideNavItem } from "@/lib/interface";
 
 export const SIDENAV_ITEMS: SideNavItem[] = [
   {
+    title: 'За Велинград',
+    path: '/za-velingrad',
+  },
+  {
     title: 'Забележителности Велинград',
     path: '/zabelezhitelnosti-velingrad',
   },

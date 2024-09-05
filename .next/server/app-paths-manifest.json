@@ -1,4 +1,4 @@
 {
-  "/page": "app/page.js",
-  "/blog/page": "app/blog/page.js"
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/[postSlug]/page": "app/[postSlug]/page.js"
 }

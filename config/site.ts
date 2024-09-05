@@ -24,6 +24,10 @@ export const siteConfig = {
       href: "/",
     },
     {
+      label: "За Велинград",
+      href: "/za-velingrad",
+    },
+    {
       label: "Забележителности Велинград",
       href: "/zabelezhitelnosti-velingrad",
     },

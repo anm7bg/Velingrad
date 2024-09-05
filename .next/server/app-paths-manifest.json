@@ -3,10 +3,10 @@
   "/page": "app/page.js",
   "/robots.txt/route": "app/robots.txt/route.js",
   "/[postSlug]/page": "app/[postSlug]/page.js",
-  "/about/page": "app/about/page.js",
   "/docs/page": "app/docs/page.js",
+  "/about/page": "app/about/page.js",
   "/blog/page": "app/blog/page.js",
   "/pricing/page": "app/pricing/page.js",
-  "/za-velingrad/page": "app/za-velingrad/page.js",
-  "/zabelezhitelnosti-velingrad/page": "app/zabelezhitelnosti-velingrad/page.js"
+  "/zabelezhitelnosti-velingrad/page": "app/zabelezhitelnosti-velingrad/page.js",
+  "/za-velingrad/page": "app/za-velingrad/page.js"
 }

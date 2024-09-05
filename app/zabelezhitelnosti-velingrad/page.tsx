@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { blogCard } from '@/app/lib/interface';
 
 
 // import { Card, CardBody, CardFooter, CardHeader } from '@nextui-org/card';
@@ -13,8 +12,8 @@ import SideNav from '@/components/side-nav';
 const ZabelejitelnostiPage = async () => {
 	const posts2: blogCard2[] = await getPostsZabelejitelnosti();
 
-	console.log("Posts2")
-	console.log(posts2)
+	// console.log("Posts2")
+	// console.log(posts2)
 
 	return (
         // <p>Loading</p>
@@ -23,8 +22,8 @@ const ZabelejitelnostiPage = async () => {
                 <h2 className="center blue">Категория: Забележителности Велинград.</h2>
                 <div className="posts">
                     {posts2.map((post: any, idx: number) => {
-                        console.log("Post")
-                        console.log(post)
+                        // console.log("Post")
+                        // console.log(post)
                         return (
                             <Card className='mb-[20px]' key={idx}>
                                 <Image 

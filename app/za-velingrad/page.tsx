@@ -10,7 +10,7 @@ import { Card, CardBody, CardFooter, CardHeader } from '@nextui-org/card';
 import { blogCard2 } from '@/lib/interface'; 
 import SideNav from '@/components/side-nav';
 
-const ZabelejitelnostiPage = async () => {
+const ZaVelingradPage = async () => {
 	const posts2: blogCard2[] = await getZaVelingrad();
 
 	console.log("Posts2")
@@ -56,4 +56,4 @@ const ZabelejitelnostiPage = async () => {
 	);
 };
 
-export default ZabelejitelnostiPage;
+export default ZaVelingradPage;

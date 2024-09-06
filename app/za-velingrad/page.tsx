@@ -20,7 +20,7 @@ const ZaVelingradPage = async () => {
         // <p>Loading</p>
         <div className='leftRightWrap'>
             <div className="blog-page">
-                <h2 className="center blue">Категория: Забележителности Велинград.</h2>
+                <h2 className="center blue">Категория: За Велинград.</h2>
                 <div className="posts">
                     {posts2.map((post: any, idx: number) => {
                         // console.log("Post")

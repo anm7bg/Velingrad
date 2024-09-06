@@ -1,0 +1,122 @@
+/* [project]/styles/main.scss.css [app-client] (css) */
+body {
+  font-size: 1rem;
+}
+
+body p, body a, body span, body li {
+  font-size: 1.5rem;
+}
+
+body h1 {
+  font-size: 2rem;
+}
+
+body header ul li.logo {
+  padding: 0;
+}
+
+body .header-ul li a {
+  font-size: 1.2rem;
+}
+
+body nav {
+  background-color: hsl(var(--nextui-background) / .9) !important;
+}
+
+body .hero .home-btn {
+  background-color: #002bd8;
+}
+
+body .main-logo {
+  max-width: none;
+}
+
+body main {
+  border-radius: 10px;
+}
+
+body .h-screen {
+  height: unset;
+}
+
+body .sidebar {
+  top: 114px;
+  right: 0;
+  border-left: 1px solid #002bd8;
+  width: 15% !important;
+}
+
+body .posts > div {
+  display: inline-block;
+  width: 20%;
+  margin: 20px;
+  padding: 10px;
+}
+
+body .posts img {
+  height: 147px;
+}
+
+body .posts h3 {
+  height: 56px;
+}
+
+body .post-image {
+  display: block;
+  margin: 10px auto;
+}
+
+body footer {
+  margin-top: 30px;
+  background: #000;
+}
+
+@media only screen and (width >= 701px) {
+  body {
+    background-color: #002bd8;
+  }
+
+  body main {
+    max-width: none !important;
+    width: 70% !important;
+  }
+
+  body main .leftRightWrap {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (width <= 700px) {
+  body .sidebar {
+    display: none;
+  }
+
+  body .posts > div {
+    width: 45%;
+    margin: 5px;
+    padding: 5px;
+  }
+}
+
+html.light body main {
+  background-color: hsl(var(--nextui-background) / .9);
+}
+
+html.light body .sidebar {
+  background-color: hsl(var(--nextui-background) / .9);
+}
+
+html.light body .post-page-title, html.light body .home-page-title {
+  color: #000;
+}
+
+html.dark body main {
+  background: #000;
+}
+
+html.dark body .sidebar {
+  background-color: #000;
+}
+
+/*# sourceMappingURL=styles_main_scss_b52d8e.css.map*/

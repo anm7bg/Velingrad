@@ -5,13 +5,13 @@ import { blogCard } from '@/app/lib/interface';
 // import { Card, CardBody, CardFooter, CardHeader } from '@nextui-org/card';
 import Image from 'next/image';
 import { Button } from '@nextui-org/button';
-import { getZaVelingrad } from '@/lib/service';
+import { getVelingradHoteli, getZaVelingrad } from '@/lib/service';
 import { Card, CardBody, CardFooter, CardHeader } from '@nextui-org/card';
 import { blogCard2 } from '@/lib/interface'; 
 import SideNav from '@/components/side-nav';
 
 const ZaVelingradPage = async () => {
-	const posts2: blogCard2[] = await getZaVelingrad();
+	const posts2: blogCard2[] = await getVelingradHoteli();
 
 	// console.log("Posts2")
 	// console.log(posts2)
@@ -20,7 +20,7 @@ const ZaVelingradPage = async () => {
         // <p>Loading</p>
         <div className='leftRightWrap'>
             <div className="blog-page">
-                <h2 className="center blue">Категория: За Велинград.</h2>
+                <h2 className="center blue">Категория: Велинград хотели.</h2>
                 <div className="posts">
                     {posts2.map((post: any, idx: number) => {
                         // console.log("Post")
@@ -49,7 +49,7 @@ const ZaVelingradPage = async () => {
                         );
                     })}
                 </div>
-                <p> Категория За Велиинград предоставя полезна информация и забележителности за Велиинград – перлата на Родопите и СПА столицата на Балканите. Открийте най-добрите места за настаняване, минерални извори, културни и природни забележителности, както и разнообразни възможности за релакс и активна почивка. Възползвайте се от нашите съвети за пътуване и направете престоя си във Велиинград незабравим!</p>
+                <p>Категорията Велинград хотели включва подбрани предложения за комфортно настаняване в известния СПА курорт Велинград. Независимо дали търсите луксозен хотел с минерални басейни, семеен хотел в близост до природата или място за романтичен уикенд, тук ще откриете разнообразие от възможности, подходящи за всеки вкус и бюджет. Насладете се на релаксираща почивка с уникални СПА процедури, чист въздух и красива природа в сърцето на Родопите. Изберете перфектния хотел във Велинград и се погрижете за вашето здраве и комфорт.</p>
             </div>
             <SideNav />
         </div>

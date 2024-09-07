@@ -90,6 +90,29 @@ export async function getZaVelingrad() {
   return data?.posts?.nodes;
 }
 
+export async function getVelingradHoteli() {
+  const data = await fetchAPI(
+      // variables: {
+      //   first,
+      // },
+      `query FetchPosts {
+        posts(first: 100, where: {categoryId: 8}) {
+          nodes {
+            excerpt
+            featuredImage {
+              node {
+                sourceUrl
+              }
+            }
+            slug
+            title
+          }
+        }
+      }`,
+  );
+  return data?.posts?.nodes;
+}
+
 export async function getPostBySlug(slug: string) {
   const data = await fetchAPI(
     `query GetPost($id: ID = "") {

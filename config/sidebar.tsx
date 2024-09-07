@@ -9,6 +9,10 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
     title: 'Забележителности Велинград',
     path: '/zabelezhitelnosti-velingrad',
   },
+  {
+    title: 'Велинград хотели',
+    path: '/velingrad-hoteli',
+  },
   // {
   //   title: 'Projects',
   //   path: '/projects',

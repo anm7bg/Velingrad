@@ -83,7 +83,7 @@ export const Navbar = () => {
       >
         <NavbarItem className="hidden sm:flex gap-2">
           <Link isExternal aria-label="Facebook" href={siteConfig.links.facebook}>
-            <FaSquareFacebook />
+            {/* <FaSquareFacebook /> */}
           </Link>
           {/* <Link isExternal aria-label="Twitter" href={siteConfig.links.twitter}>
             <TwitterIcon className="text-default-500" />

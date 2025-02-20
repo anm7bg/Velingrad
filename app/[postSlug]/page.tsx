@@ -2,6 +2,7 @@
 import { blogCard } from "@/app/lib/interface";
 import SideNav from "@/components/side-nav";
 import { getPostBySlug, getPosts } from "@/lib/service";
+import { Metadata } from "next";
 
 import Image from "next/image";
 
@@ -54,7 +55,22 @@ const Page = async ( {params}: {params: {postSlug: string}} ) => {
 	// return (
 	// 	<p>Loading</p>
 	// );
-		
+
+	// const metadata: Metadata = {
+	// 	openGraph {
+	// 		type: "",
+	// 		url: "",
+	// 		title: "",
+	// 		description: "asd",
+	// 		siteName: "",
+	// 		images: [
+	// 			{
+	// 				url: "#"
+	// 			}
+	// 		]
+	// 	}
+	// };
+	
 
 	return (
         <div className='leftRightWrap'>
@@ -78,3 +94,11 @@ const Page = async ( {params}: {params: {postSlug: string}} ) => {
 };
 
 export default Page;
+
+// export const metadata: Metadata = {
+// 	images: [
+// 		{
+// 			url: post.featuredImage.node.sourceUrl
+// 		}
+// 	]
+// };
